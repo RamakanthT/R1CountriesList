@@ -1,0 +1,4 @@
+npx create-react-app demo2
+cd demo2
+npm install node-sass
+npm start
