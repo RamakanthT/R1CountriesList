@@ -1,5 +1,6 @@
 const CONFIG =  {
-    "api": 'https://restcountries.eu/rest/v2/all'
+    //restcountries.eu is offline and restcountries.com now needs an API key, so the list is served from public/countries.json
+    "api": `${process.env.PUBLIC_URL}/countries.json`
 }
 
 export default CONFIG;
